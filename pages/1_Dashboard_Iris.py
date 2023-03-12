@@ -1,10 +1,10 @@
 import streamlit as st
-from matplotlib import image
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import plotly.express as px
 import os
+from matplotlib import image
 
 # absolute path to this file
 FILE_DIR = os.path.dirname(os.path.abspath(__file__))
